@@ -1,0 +1,33 @@
+{
+  "name": "Void Room",
+  "package_name": "void-room",
+  "version": "0.1.0",
+  "revision": "noirsonance2",
+  "summary": "Distraction-free offline writing room tuned for Cardputer Zero.",
+  "description": "Void Room is a quiet offline writing space for timed focus sessions, with no-exit and no-backspace modes, local session archive, and optional ambient sound.",
+  "categories": [
+    "Utilities",
+    "Productivity"
+  ],
+  "license": "No source license granted; binary distribution only.",
+  "homepage": "https://github.com/NoirSonance/void-room-cardputerzero",
+  "source_repo": "https://github.com/NoirSonance/void-room-cardputerzero",
+  "artifact": "dist/void-room_0.1.0-noirsonance2_arm64.deb",
+  "architecture": "arm64",
+  "target": "M5Stack Cardputer Zero / APPLaunch",
+  "icon": "icon.png",
+  "permissions": {
+    "microphone": false,
+    "audio_output": true,
+    "network": false,
+    "filesystem": "app-data-only",
+    "keyboard_input": true,
+    "background_service": false,
+    "external_hardware": false
+  },
+  "caps": [
+    "keyboard",
+    "filesystem",
+    "audio_output"
+  ]
+}
